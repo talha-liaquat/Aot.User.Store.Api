@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aot.User.Store.Contracts\Aot.User.Store.Contracts.csproj" />
+    <ProjectReference Include="..\Aot.User.Store.Dtos\Aot.User.Store.Dtos.csproj" />
+    <ProjectReference Include="..\Aot.User.Store.Entities\Aot.User.Store.Entities.csproj" />
+    <ProjectReference Include="..\Aot.User.Store.Repositories\Aot.User.Store.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
