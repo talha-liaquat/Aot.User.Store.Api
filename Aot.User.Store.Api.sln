@@ -5,17 +5,19 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Api", "Aot.User.Store.Api\Aot.User.Store.Api.csproj", "{6DF65D95-C42D-419C-8E74-5513317A8A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Api.Tests", "Aot.User.Store.Api.Tests\Aot.User.Store.Api.Tests.csproj", "{73C08B62-12F2-4BFD-9C1F-F2D912B1F87A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Api.Tests", "Aot.User.Store.Api.Tests\Aot.User.Store.Api.Tests.csproj", "{73C08B62-12F2-4BFD-9C1F-F2D912B1F87A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Contracts", "Aot.User.Store.Contracts\Aot.User.Store.Contracts.csproj", "{1F89B18E-A326-493E-B407-BD94E3997DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Contracts", "Aot.User.Store.Contracts\Aot.User.Store.Contracts.csproj", "{1F89B18E-A326-493E-B407-BD94E3997DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Dtos", "Aot.User.Store.Dtos\Aot.User.Store.Dtos.csproj", "{5C6422E8-F379-4100-BA8E-877025641318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Dtos", "Aot.User.Store.Dtos\Aot.User.Store.Dtos.csproj", "{5C6422E8-F379-4100-BA8E-877025641318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Entities", "Aot.User.Store.Entities\Aot.User.Store.Entities.csproj", "{9CE8E1FA-EE79-4B25-AFD8-30207FA4980F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Entities", "Aot.User.Store.Entities\Aot.User.Store.Entities.csproj", "{9CE8E1FA-EE79-4B25-AFD8-30207FA4980F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Repositories", "Aot.User.Store.Repositories\Aot.User.Store.Repositories.csproj", "{05CF8741-3528-4812-8194-F049217C0B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Repositories", "Aot.User.Store.Repositories\Aot.User.Store.Repositories.csproj", "{05CF8741-3528-4812-8194-F049217C0B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Services", "Aot.User.Store.Services\Aot.User.Store.Services.csproj", "{C8FFC114-0F57-4CB6-A742-224C84A0C9C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aot.User.Store.Services", "Aot.User.Store.Services\Aot.User.Store.Services.csproj", "{C8FFC114-0F57-4CB6-A742-224C84A0C9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aot.User.Store.Identity", "Aot.User.Store.Identity\Aot.User.Store.Identity.csproj", "{E697FADE-6B40-48B5-BA70-FD58E6961179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C8FFC114-0F57-4CB6-A742-224C84A0C9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FFC114-0F57-4CB6-A742-224C84A0C9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FFC114-0F57-4CB6-A742-224C84A0C9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E697FADE-6B40-48B5-BA70-FD58E6961179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E697FADE-6B40-48B5-BA70-FD58E6961179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E697FADE-6B40-48B5-BA70-FD58E6961179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E697FADE-6B40-48B5-BA70-FD58E6961179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
