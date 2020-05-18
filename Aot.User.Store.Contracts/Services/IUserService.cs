@@ -10,5 +10,6 @@ namespace Aot.User.Store.Contracts.Services
     {
         //1. Anyone should be able to sign-up and create groups. Person who created a group is the member admin of the group by default.
         public Task<string> RegisterUserAsync(RegisterUserRequest request);
+        public (string token,string userId)? Authenticate(LoginRequest request);
     }
 }

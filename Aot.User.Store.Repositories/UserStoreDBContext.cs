@@ -10,10 +10,10 @@ namespace Aot.User.Store.Repositories
         public DbSet<Entities.Group> Group { get; set; }
         public DbSet<Entities.Role> Role { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseMySQL("server=127.0.0.1;database=testapp;user=root;password=helloworld;port=3308");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseMySQL("server=127.0.0.1;database=testapp;user=root;password=helloworld;port=3308");
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

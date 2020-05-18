@@ -10,6 +10,13 @@ namespace Aot.User.Store.Repositories
 {
     public class RoleRepository : IRoleRepository
     {
+        public async Task<int> CreateAsync(Role role)
+        {
+            using var context = new UserStoreDBContext();
+            context.Role.Add(role);
+            return await context.SaveChangesAsync();
+        }
+
         public IEnumerable<Role> GetAll()
         {
             using var context = new UserStoreDBContext();

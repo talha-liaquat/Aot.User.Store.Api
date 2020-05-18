@@ -10,5 +10,6 @@ namespace Aot.User.Store.Contracts.Repositories
     public interface IRoleRepository
     {
         public IEnumerable<Role> GetAll();
+        public Task<int> CreateAsync(Role role);
     }
 }
